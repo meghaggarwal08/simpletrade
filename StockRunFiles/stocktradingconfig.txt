@@ -4,7 +4,6 @@
 #
 #
 #
-
 @mktConditionBuyExtraMarkDownPct=0
 @markDownPctForAveragingTightening=2
 @deliveryBrokerage=0.35

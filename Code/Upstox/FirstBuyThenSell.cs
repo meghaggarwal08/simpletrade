@@ -19,7 +19,7 @@ namespace SimpleTrader
 
         public override void StockBuySell()
         {
-            Init();
+            Init(); 
 
             // place buy order if eligible: if there is no pending buy order and if totaloutstanding qt is less than maxoutstanding
             if (string.IsNullOrEmpty(buyOrderRef) && todayOutstandingQty == 0 && (todayOutstandingQty + holdingOutstandingQty) < maxOutstandingQty)
